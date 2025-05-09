@@ -1,0 +1,47 @@
+// comentario de sass
+
+@use 'encabezado';
+@use 'menu';
+
+@mixin creaEstiloEspecial(){
+    background-color: pink;
+    color: yellow;
+    font-size: 20px;
+}
+
+.creaestiloespecial{
+    @include creaEstiloEspecial();   
+}
+
+%creaestiloherencia{
+    background-color: green;
+    color: brown;
+    font-weight: bolder;
+}
+
+.creaestiloherencia{
+    @extend %creaestiloherencia;
+    font-size: 10;
+}
+
+.operadores{
+    font-size: 20px + 30px;
+}
+
+.condicionales{
+    $fondo:red;
+    @if $fondo==blue{
+        background-color: yellow;
+    }
+    @else{
+        background-color: green;
+    }
+}
+
+.bucle{
+    $cont:1;
+
+    @for $cont from 1 through 10{
+        font-size: #{$cont}px;
+    }
+}

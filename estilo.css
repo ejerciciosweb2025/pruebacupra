@@ -1,0 +1,49 @@
+body {
+  background-color: lightblue;
+}
+
+#especial p {
+  color: orange;
+}
+#especial .rojo {
+  color: red;
+}
+
+.creaestiloespecial {
+  background-color: pink;
+  color: yellow;
+  font-size: 20px;
+}
+
+.creaestiloherencia {
+  background-color: green;
+  color: brown;
+  font-weight: bolder;
+}
+
+.creaestiloherencia {
+  font-size: 10;
+}
+
+.operadores {
+  font-size: 50px;
+}
+
+.condicionales {
+  background-color: green;
+}
+
+.bucle {
+  font-size: 1px;
+  font-size: 2px;
+  font-size: 3px;
+  font-size: 4px;
+  font-size: 5px;
+  font-size: 6px;
+  font-size: 7px;
+  font-size: 8px;
+  font-size: 9px;
+  font-size: 10px;
+}
+
+/*# sourceMappingURL=estilo.css.map */
