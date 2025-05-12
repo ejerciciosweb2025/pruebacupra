@@ -1,4 +1,6 @@
 <?php
+/**Para permitir el acceso y que no de el error raro */
+header('Access-Control-Allow-Origin: *');
 //conectar con la base de datos
 $host       = "localhost";
 $usuario    = "root";
